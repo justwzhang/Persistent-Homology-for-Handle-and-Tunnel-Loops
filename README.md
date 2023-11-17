@@ -16,4 +16,4 @@ resources                -- Some resources needed.
 ```
 
 ## Output
-![genus_handle_loops](resources/genus_handle_loops.png) ![genus_tunnel_loops](resources/genus_tunnel_loops.png)
+
