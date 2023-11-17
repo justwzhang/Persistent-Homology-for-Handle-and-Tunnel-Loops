@@ -16,4 +16,4 @@ The code has been tested on Windows 10, Ubuntu 18.04 and MacOS 10.15.5.
 >```
 
 ## Output
->![genus handle loops](resources/genus_handle_loops.png) ![genus tunnel loops](resources/genus_tunnel_loops.png)
+>![handle loops](resources/genus_handle_loops.png) ![tunnel loops](resources/genus_tunnel_loops.png)
