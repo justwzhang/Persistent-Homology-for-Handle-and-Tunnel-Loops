@@ -1,0 +1,127 @@
+﻿  HandleTunnelLoop.cpp
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(71,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(321,25): warning C4477: 'fprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(372,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(358,1): message : while compiling class template member function 'void DartLib::TBaseMesh_2<V,E,F,Dart>::load(const std::vector<DartLib::CPoint,std::allocator<DartLib::CPoint>> &,const std::vector<int,std::allocator<int>> &)'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(404,17): message : see the first reference to 'DartLib::TBaseMesh_2<V,E,F,Dart>::load' in 'DartLib::CHandleTunnelLoop::exact_boundary'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\include\MyMesh.h(67,24): message : see reference to class template instantiation 'DartLib::TBaseMesh_2<V,E,F,Dart>' being compiled
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(404,5): message : see reference to class template instantiation 'DartLib::TMyMesh<DartLib::CMyVertex_2,DartLib::CMyEdge_2,DartLib::CMyFace_2,DartLib::CMyDart_2>' being compiled
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\utility(270,61): warning C4267: 'initializing': conversion from 'size_t' to '_Ty2', possible loss of data
+          with
+          [
+              _Ty2=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xmemory(719,103): message : see reference to function template instantiation 'std::pair<const DartLib::EdgeMapKey,int>::pair<const _Ty*,unsigned __int64,0>(std::pair<const _Ty *,unsigned __int64> &&) noexcept(false)' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\list(586,25): message : see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::pair<const int *,unsigned __int64>>(_Alloc &,_Objty *const ,std::pair<const int *,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Alloc=std::allocator<std::_List_node<std::pair<const DartLib::EdgeMapKey,int>,std::_Default_allocator_traits<std::allocator<std::pair<const DartLib::EdgeMapKey,int>>>::void_pointer>>,
+              _Ty=std::pair<const DartLib::EdgeMapKey,int>,
+              _Objty=std::pair<const DartLib::EdgeMapKey,int>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\xhash(622,53): message : see reference to function template instantiation 'std::_List_node_emplace_op2<std::allocator<std::_List_node<_Ty,std::_Default_allocator_traits<_Alloc>::void_pointer>>>::_List_node_emplace_op2<std::pair<const int *,unsigned __int64>>(_Alnode &,std::pair<const int *,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const DartLib::EdgeMapKey,int>,
+              _Alloc=std::allocator<std::pair<const DartLib::EdgeMapKey,int>>,
+              _Alnode=std::allocator<std::_List_node<std::pair<const DartLib::EdgeMapKey,int>,std::_Default_allocator_traits<std::allocator<std::pair<const DartLib::EdgeMapKey,int>>>::void_pointer>>
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\unordered_map(276,20): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::_Hash<std::_Umap_traits<_Kty,int,std::_Uhash_compare<_Kty,_Hasher,_Keyeq>,_Alloc,false>>::emplace<std::pair<const int *,unsigned __int64>>(std::pair<const int *,unsigned __int64> &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const DartLib::EdgeMapKey,int>,
+              _Kty=DartLib::EdgeMapKey,
+              _Hasher=DartLib::EdgeMapKey_hasher,
+              _Keyeq=std::equal_to<DartLib::EdgeMapKey>,
+              _Alloc=std::allocator<std::pair<const DartLib::EdgeMapKey,int>>
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(439,24): message : see reference to function template instantiation 'std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>,bool> std::unordered_map<DartLib::EdgeMapKey,int,DartLib::EdgeMapKey_hasher,std::equal_to<DartLib::EdgeMapKey>,std::allocator<_Ty>>::insert<std::pair<const int *,unsigned __int64>,0>(_Valty &&)' being compiled
+          with
+          [
+              _Ty=std::pair<const DartLib::EdgeMapKey,int>,
+              _Valty=std::pair<const int *,unsigned __int64>
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(428,1): message : while compiling class template member function 'CDart *DartLib::TBaseMesh_2<V,E,F,CDart>::add_edge(CFace *,const std::vector<int,std::allocator<int>> &)'
+          with
+          [
+              CDart=DartLib::CMyDart_2,
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              CFace=DartLib::CMyFace_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(407,18): message : see the first reference to 'DartLib::TBaseMesh_2<V,E,F,Dart>::add_edge' in 'DartLib::TBaseMesh_2<V,E,F,Dart>::add_face'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(379,17): message : see the first reference to 'DartLib::TBaseMesh_2<V,E,F,Dart>::add_face' in 'DartLib::TBaseMesh_2<V,E,F,Dart>::load'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(404,17): message : see the first reference to 'DartLib::TBaseMesh_2<V,E,F,Dart>::load' in 'DartLib::CHandleTunnelLoop::exact_boundary'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(189,1): message : while compiling class template member function 'void DartLib::TBaseMesh_2<V,E,F,Dart>::unload(void)'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh/BaseMesh_2.h(358,1): message : while compiling class template member function 'void DartLib::TBaseMesh_2<V,E,F,Dart>::load(const std::vector<DartLib::CPoint,std::allocator<DartLib::CPoint>> &,const std::vector<int,std::allocator<int>> &)'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\handle_tunnel_loop\src\HandleTunnelLoop.cpp(404,17): message : see the first reference to 'DartLib::TBaseMesh_2<V,E,F,Dart>::load' in 'DartLib::CHandleTunnelLoop::exact_boundary'
+          with
+          [
+              V=DartLib::CMyVertex_2,
+              E=DartLib::CMyEdge_2,
+              F=DartLib::CMyFace_2,
+              Dart=DartLib::CMyDart_2
+          ]
+C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\3rdparty\DartLib\core\Mesh\BaseMesh_3.h(627): warning C4715: 'DartLib::TBaseMesh_3<DartLib::CMyVertex,DartLib::CMyEdge,DartLib::CMyFace,DartLib::CMyTet,DartLib::CMyDart>::edge_vertex': not all control paths return a value
+  HandleTunnelLoop.vcxproj -> C:\Users\justw\Desktop\CS hw\CS 528 Graphics\HW 2\HW2\Assignment_7_Skeleton\build\handle_tunnel_loop\Debug\HandleTunnelLoop.exe

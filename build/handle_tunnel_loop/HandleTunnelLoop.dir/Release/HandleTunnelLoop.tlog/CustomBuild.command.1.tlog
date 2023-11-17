@@ -1,0 +1,10 @@
+^C:\USERS\JUSTW\DESKTOP\CS HW\CS 528 GRAPHICS\HW 2\HW2\ASSIGNMENT_7_SKELETON\HANDLE_TUNNEL_LOOP\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/justw/Desktop/CS hw/CS 528 Graphics/HW 2/HW2/Assignment_7_Skeleton" "-BC:/Users/justw/Desktop/CS hw/CS 528 Graphics/HW 2/HW2/Assignment_7_Skeleton/build" --check-stamp-file "C:/Users/justw/Desktop/CS hw/CS 528 Graphics/HW 2/HW2/Assignment_7_Skeleton/build/handle_tunnel_loop/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
